@@ -39,7 +39,48 @@
     /* html css project  */
     .css{
         width: 100%;
+        height: 100%;
+
     }
+
+    .project img{
+        position: absolute;
+        left: 40px;
+        bottom: 78px;
+        height: 98px;
+        width: 175px;
+    }
+
+    .html-css2{
+        display: none;
+    }
+
+    .html-css {
+        display: block;
+    }
+    .git_hub{
+        font-size: 1.2rem;
+    }
+
+    .bootstrap{
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiggy_project img{
+        left: 50px;
+        bottom: 424px;
+        height: 74px;
+        width: 140px;
+        position: absolute;
+    }
+    
+    .bootstrap-git{
+        font-size: 1rem;
+    }
+
+    /* bootstraps projects------------------  */
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

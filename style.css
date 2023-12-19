@@ -101,3 +101,17 @@ nav {
     border-bottom: 1.5px solid green;
     color: red;
 }
+
+.bootstrap{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+
+.swiggy_project img{
+    height: 240px;
+    bottom: 235px;
+    left: 78px;
+    position: absolute;
+    width: 424px;
+}
