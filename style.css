@@ -1,72 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: "Hedvig Letters Serif', serif";
+    overflow-x: hidden;
 }
 
-nav{
+nav {
     background-color: lightblue;
-    height: 80px;
+    height: 90px;
     width: 100%;
 }
 
-.navbar-nav{
+
+.navbar-nav {
     margin-left: 62%;
 }
 
-.navbar-nav a{
+.navbar-nav a {
     margin-right: 15PX;
+    font-size: 20px;
 }
 
-.navbar-nav a:hover{
+.navbar-nav a:hover {
     font-weight: 600;
     border-bottom: 2px solid royalblue;
     font-size: 1.2rem;
 }
 
-.developer{
-    /* background-color: crimson; */
-    height: 50vh;
-    width: 45vw;
-}
-.soft{
+.soft {
     color: rgba(255, 68, 0, 0.908);
 }
 
-.h1{
+.h1 {
     font-size: 3rem;
 }
 
-.developer p{
-    padding-right: 100px;
+.developer p {
+    padding-right: 200px;
 }
 
-.coding{
-    height: 54vh;
-    width: 51vw;
-}
 
-.btn_1{
-    height: 5.5vh;
-    width: 9.2vw;
-    
-}
-
-.btn_1 a{
-    color: rgba(255, 68, 0, 0.908);
-    font-size: 1.4rem;
-}
-
-.btn_1 a:hover{
-    color: crimson;
-}
-
-.hr{
+/* about me  */
+.resume {
     height: 6vh;
     width: 9.2vw;
     border: 1px solid black;
@@ -74,41 +54,50 @@ nav{
     background-color: #fff;
 }
 
-.hr:hover{
+.resume:hover {
     background-color: purple;
     color: white;
 }
 
-.about img{
+.about img {
     height: 57vh;
     width: 45vw;
 }
 
-.intro{
+.intro {
     color: purple;
 }
 
-.css{
-    height: 70vh;
-    width: 50vw;
+/* project code start  */
+
+.html-css{
+    display: none;
+}
+
+.css {
     padding: 20px;
     position: relative;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 40px;
+    box-shadow: 20px 20px 60px #00000041,inset -20px -20px 60px #ffffff40;
 }
 
-.ark_studio img{
+.project img {
     position: absolute;
-    left: 71px;
-    bottom: 116px;
-    height: 235px;
-    width: 425px;
+    left: 66px;
+    bottom: 119px;
+    height: 239px;
+    width: 428px;
 }
 
-.tv img{
-    height: 80vh;
-    width: 80vw;
+.git_hub {
+    font-size: 1.4rem;
+    color: gray;
 }
 
-.git_hub{
-    font-size: 1.5rem;
+.git_hub:hover{
+    border-bottom: 1.5px solid green;
+    color: red;
 }
