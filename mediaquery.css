@@ -40,7 +40,8 @@
     .css{
         width: 100%;
         height: 100%;
-
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .project img{
@@ -69,14 +70,29 @@
 
     .swiggy_project img{
         left: 50px;
-        bottom: 424px;
-        height: 74px;
-        width: 140px;
+        bottom: 87%;
+        height: 85px;
+        width: 156px;
         position: absolute;
     }
     
     .bootstrap-git{
         font-size: 1rem;
+    }
+
+    .amazon_project img{
+        height: 83px;
+        width: 154px;
+        position: absolute;
+        bottom: 72%;
+        left: 19.9%;
+    }
+
+    .netflix_project img{
+        height: 8.5%;
+        width: 61%;
+        bottom: 56%;
+        left: 20%;
     }
 
     /* bootstraps projects------------------  */

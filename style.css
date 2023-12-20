@@ -84,6 +84,16 @@ nav {
     box-shadow: 20px 20px 60px #00000041,inset -20px -20px 60px #ffffff40;
 }
 
+.shadow_css{
+    padding: 20px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 40px;
+    box-shadow: 20px 20px 60px #00000041,inset -20px -20px 60px #ffffff40;
+}
+
 .project img {
     position: absolute;
     left: 66px;
@@ -109,9 +119,43 @@ nav {
 }
 
 .swiggy_project img{
-    height: 240px;
-    bottom: 235px;
-    left: 78px;
+    height: 235px;
+    bottom: 74.5%;
+    left: 79px;
     position: absolute;
-    width: 424px;
+    width: 423px;
+}
+
+.swiggy_git_hub:hover{
+    border-bottom: 1px solid black;
+    color: #fa8019;
+}
+
+.amazon_project img{
+    height: 235px;
+    width: 420px;
+    position: absolute;
+    bottom: 74.5%;
+    left: 55.4%;
+}
+
+.amazon_git_hub:hover{
+    border-bottom: 1px solid rgba(51,82,88,255);
+    color: #2596be;
+}
+
+.netflix_project img{
+    position:  absolute;
+    height: 19%;
+    width: 37.6%;
+    bottom: 43.9%;
+    left: 7.1%;
+}
+
+.seedkaro_project img{
+    height: 10%;
+    width: 40%;
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
 }
